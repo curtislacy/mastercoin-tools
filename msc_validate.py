@@ -1091,8 +1091,8 @@ def check_mastercoin_transaction(t, index=-1):
                     balance_from=available_reward+addr_dict[from_addr][c]['balance']
                 else:
                     # print >> sys.stderr,  'Getting keys from address: ' + str( from_addr )
-                    for key in addr_dict[from_addr]:
-                        print  >> sys.stderr, '   ' + str( key )
+                    #for key in addr_dict[from_addr]:
+                    #    print  >> sys.stderr, '   ' + str( key )
 
                     # print >> sys.stderr, 'Sending funds to: ' + str( to_addr )
                     if c in addr_dict[from_addr]:
